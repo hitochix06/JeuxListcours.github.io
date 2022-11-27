@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Liste des cours</title>
+  <!-- importe boostrap 5.2 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha385-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+  <!-- importe lien de font FontAwesome  -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700,200" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/7511ac4b90.js" crossorigin="anonymous"></script>
+
+  <!-- importe la police avec lien internet  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/" />
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Julee&display=swap" rel="stylesheet" />
+
+
+  <!-- importe le fichier css  -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+
+
+<body>
+  <h1>Liste des courses </h1>
+
+  <div class="container">
+    <div class="card p-5">
+      <div class="card-body ">
+        <div class="mb-5">
+          <input type="text" class="form-control" id="task" placeholder="Votre tâche"></input>
+          <div class="d-grid gap-2 col-3 mx-auto ">
+            <button id="button" class="btn btn-outline-primary">Valide </button>
+          </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center">Produit ajouter</h5>
+                <ul class="taskList">
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title  text-center">Produit rayer</h5>
+                <ul class="taskListSupprime">
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="javascript/js.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

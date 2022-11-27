@@ -1,0 +1,25 @@
+h1 {
+  text-align: center;
+  margin: 50px;
+  font-size: 50px;
+  color: blue;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.form-control {
+  text-align: center;
+}
+
+.btn-outline-primary {
+  margin: 15px;
+}
+
+.fa-solid {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  margin: 10px;
+}
+
+.fa-solid.fa-trash {
+  color: rgb(164, 11, 11);
+}
